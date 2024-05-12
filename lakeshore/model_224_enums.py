@@ -125,8 +125,8 @@ class Model224Enums:
 
     class CurveTemperatureCoefficients(IntEnum):
         """Enumerations specify positive/negative temperature sensor curve coefficients."""
-        NEGATIVE = 1
-        POSITIVE = 2
+        NEGATIVE = 0
+        POSITIVE = 1
 
     class DiodeExcitationCurrent(IntEnum):
         """Enum type representing the different excitation currents available for a diode sensor."""
